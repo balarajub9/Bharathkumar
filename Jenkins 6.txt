@@ -1,0 +1,169 @@
+
+Notifications in Jenkins
+--------------------------
+whenever a jenkins job is executed we can send notifications to the team memebers.
+This can be done in 2 ways
+1 Cat light notifications
+2 Email notifications
+
+1 Catlight Notifications
+---------------------------
+Cat light is a thried party client software which has to be installed on every team members machine.
+Cat light can be integrated with various CI tools
+Once it is integrated with jenkins we can get desktop notifications
+1 Open https://catlight.io/downloads
+2 Download catlight for windows
+3 Install it
+4 It will ask details of the jenkinserver and credentials
+  of jenkins
+4 Catlight will display the list of jobs
+5 Select those jobs for which we want notifications
+6 Run those jobs from jenkins
+  A popup msg is displayed on the team members machine when the jenkins job is running.It will show the status of the job as running/success/fail.
+
+Email Notifications
+---------------------
+1 Open the dashboard of jenkins
+2 Go to the job that should send email notifications
+3 click on Configure
+4 Go to Post build actions
+5 click on add post build action
+6 click on email notifications
+7 enter the emailid's of the team members seperated by space
+8 click on apply--->save
+9 Go to the dashboard of jenkins
+10 Click on manage jenkins
+11 Click on configure System
+12 Search for Email notifications
+
+
+Scheduling the jenkins job for a specific date and time
+-----------------------------------------------------
+1 Open the dashboard of jenkins
+2 Go to the job that we want to schedule--->Configure
+3 Go to Build Triggers
+4 Click on Build Periodically
+5 Schedule the date and time
+6 Apply--->save
+
+Scheduling the CI-CD to start wheneer developer makes changes to the code and pushes into github
+--------------------------------------------------------------
+1 Open the dashboard of jenkins
+2 Go to the job---->click on Configure
+3 Go to Build Triggers
+4 Click on POLL SCM
+5 In Schedule section * * * * *
+6 apply--->save
+7 The developer should make some changes to the code and push in   github
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
