@@ -35,6 +35,7 @@ Email Notifications
 10 Click on manage jenkins
 11 Click on configure System
 12 Search for Email notifications
+edit for testing purpose 
 
 
 Scheduling the jenkins job for a specific date and time
